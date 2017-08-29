@@ -129,6 +129,6 @@ for example:
 
 If a placeholder directory is relative (like `$foo$` in this example) it'll be based of the path of the respective page
 it is used in. Also, *paradox* always auto-defines the placeholder `$root$` to denote the absolute path of the
-SBT project's root directory.
+SBT (sub)project's root directory.
 
 **Note**: Using this feature will not allow GitHub to follow the snippet links correctly on the web UI.
